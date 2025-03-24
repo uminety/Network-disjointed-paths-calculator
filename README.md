@@ -6,10 +6,10 @@ This program is programmed with the *Two Step Aproach* and *Suurballe* algorithm
 
 #### Requirements and set-up
 Python 3.7+\
-pip\
+pip
 
 **NetworkX:** pip install networkx\
-\
+
 
 ### .xml tree
 This program is built for networks parsed via .xlm file, with the following tree:\
@@ -31,7 +31,7 @@ This program is built for networks parsed via .xlm file, with the following tree
          - \</link>
        - \</links>
      - \</networkStructure>
- - \</network>
+ - \</network>\
 Feel free to add any network of your choosing following this tree.
 In the program folder there's already the following networks:\
 
