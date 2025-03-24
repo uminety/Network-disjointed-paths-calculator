@@ -432,47 +432,6 @@ def main ():
 	
 	else:
 		print("Choose an option from the above.")
-	
-	## printing both graphs info----------------------------------------
-	'''print("\nGraph Information H:")
-	print("\n- Number of nodes:", G.number_of_nodes())
-	print("\n- Number of edges:", G.number_of_edges())
 
-	# Print node information
-	print("\nNode Information :")
-	for node, attributes in G.nodes(data=True):
-		print("Node:", node)
-		print("  Attributes:", attributes)
-
-	# Print edge information
-	print("\nEdge Information:")
-	for u, v, attributes in G.edges(data=True):
-		print("Edge:", (u, v))
-		print("  Attributes:", attributes)
-	
-	print ("\n--------------------------------------------------------\n")
-	
-	print ("\n--------------------------------------------------------\n")
-	
-	
-	print("\nGraph Information H:")
-	print("\n- Number of nodes:", H.number_of_nodes())
-	print("\n- Number of edges:", H.number_of_edges())
-
-	# Print node information
-	print("\nNode Information :")
-	for node, attributes in H.nodes(data=True):
-		print("Node:", node)
-		print("  Attributes:", attributes)
-
-	# Print edge information
-	print("\nEdge Information:")
-	for u, v, attributes in H.edges(data=True):
-		print("Edge:", (u, v))
-		print("  Attributes:", attributes)
-	
-	
-	#nx.draw(G,pos=G.nodes.node(data=True))
-	#lt.show()'''
 if __name__ == "__main__":
 	main()
